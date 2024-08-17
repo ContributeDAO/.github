@@ -1,7 +1,5 @@
 # Rebellion Data Funder 简介
 
----
-
 Rebellion Data Funder 致力于构建一个全球性的数据众筹平台，赋予用户对个人数据的完全控制权，并通过去中心化的经济激励机制获得实际回报。用户可以透明、安全地共享数据，并通过 RBL token 实现直接经济收益，从而推动数据经济的公平发展和隐私保护。
 
 Rebellion Data Funder 由一个隐私保护的数据共享平台（Data Network）和一个去中心化的经济激励机制（RLB token）组成。每个用户通过分享数据，验证后即可获得 RLB  token 的经济收益。该平台采用先进的加密技术和区块链基础设施支持，在保护隐私的同时将人类与人工智能区分开来，确保数据的有效性和隐私性。
@@ -32,7 +30,9 @@ Rebellion Data Funder 的核心假设包括：
 
 **Rebellion ID 是用户的人格证明，**确保每个用户的数据在共享过程中的安全性，并且使得盗用或滥用数据变得极其困难**。**用户需要在注册时通过绑定验证他们的指纹信息来生成 **Rebellion ID**，确保身份的真实性和唯一性。这一机制允许个人向验证者证明其为真实用户，防止机器人和虚假账户污染数据共享环境。
 
-![Rebellion ID](https://github.com/ContributeDAO/.github/blob/main/profile/Rebellion ID.png)
+<p align="center">
+  <img src="https://github.com/ContributeDAO/.github/blob/main/profile/RebellionID.png" alt="RebellionID" width="900" />
+</p>
 
 # Rebellion App
 
@@ -41,7 +41,7 @@ Rebellion Data Funder 的核心假设包括：
 通过 **Rebellion App**，项目方可以发布数据需求悬赏，用户可以浏览这些需求并自愿选择参与数据共享。用户共享的数据将受到严格保护，同时确保隐私不被泄露。最终，**Rebellion App** 期望支持各种数据需求的发布和响应，并提供对全球去中心化金融基础设施的无摩擦访问，为用户和项目方提供广泛的数据共享和收益机会。
 
 <p align="center">
-  <img src="https://github.com/ContributeDAO/.github/blob/main/profile/UI.png" alt="UI" width="500" />
+  <img src="https://github.com/ContributeDAO/.github/blob/main/profile/UI.png" alt="UI" width="300" />
 </p>
 
 
@@ -57,7 +57,11 @@ Rebellion Data Funder 的核心假设包括：
 
 为满足不同场景的需求，开发者可以向社区提交自定义的脱敏模块供用户使用。被积极采用的模块的开发者将获得空投奖励，也可以采用订阅或分润的模式，从数据上传者的收益中获得回报。
 
-![Uploader](https://github.com/ContributeDAO/.github/blob/main/profile/Uploader.png)
+
+<p align="center">
+  <img src="https://github.com/ContributeDAO/.github/blob/main/profile/Uploader.png" alt="Uploader" width="900" />
+</p>
+
 
 # 数据验证
 
@@ -72,7 +76,9 @@ Rebellion Data Funder 的核心假设包括：
 1. **质押 ETH**：验证者必须质押一定量的 ETH 作为保证金，以确保其审查的公正性和有效性。
 2. **贡献数据**：验证者必须在该 mempool 中上传并贡献过一份数据，以确保其对数据集的熟悉程度和参与度。
 
-![Validator](https://github.com/ContributeDAO/.github/blob/main/profile/Validator.png)
+<p align="center">
+  <img src="https://github.com/ContributeDAO/.github/blob/main/profile/Validator.png" alt="Validator" width="900" />
+</p>
 
 ### 验证奖励机制
 
@@ -102,7 +108,10 @@ $$
 - $T$ 是荷兰拍奖励的总时间。
 - $n$ 是奖励增长的指数。
 
-![PriceCurve](https://github.com/ContributeDAO/.github/blob/main/profile/PriceCurve.png)
+
+<p align="center">
+  <img src="https://github.com/ContributeDAO/.github/blob/main/profile/PriceCurve.png" alt="PriceCurve" width="900" />
+</p>
 
 # 数据购买
 
@@ -120,7 +129,10 @@ $$
     - 如果购买方的拒绝率过高（例如，超过一定阈值），平台将启动不信任投票程序。该程序会对该购买方的行为进行评估，并可能禁用该购买方的发布权限，以防止滥用质疑机制。
     - 不信任投票的机制确保了购买方的质疑行为是真实有效的，而不是用来恶意干扰数据验证过程。
 
-![Argue](https://github.com/ContributeDAO/.github/blob/main/profile/Argue.png)
+
+<p align="center">
+  <img src="https://github.com/ContributeDAO/.github/blob/main/profile/Argue.png" alt="Argue" width="900" />
+</p>
 
 # 代币经济学
 
