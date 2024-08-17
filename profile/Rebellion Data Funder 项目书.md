@@ -32,7 +32,7 @@ Rebellion Data Funder 的核心假设包括：
 
 **Rebellion ID 是用户的人格证明，**确保每个用户的数据在共享过程中的安全性，并且使得盗用或滥用数据变得极其困难**。**用户需要在注册时通过绑定验证他们的指纹信息来生成 **Rebellion ID**，确保身份的真实性和唯一性。这一机制允许个人向验证者证明其为真实用户，防止机器人和虚假账户污染数据共享环境。
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2317517e-6fcb-4b6d-b938-5a6fd3eade33/f8761538-9a63-4d67-a974-7229125007d5/image.png)
+![Rebellion ID](https://github.com/ContributeDAO/.github/blob/main/profile/Rebellion ID.png)
 
 # Rebellion App
 
@@ -40,8 +40,7 @@ Rebellion Data Funder 的核心假设包括：
 
 通过 **Rebellion App**，项目方可以发布数据需求悬赏，用户可以浏览这些需求并自愿选择参与数据共享。用户共享的数据将受到严格保护，同时确保隐私不被泄露。最终，**Rebellion App** 期望支持各种数据需求的发布和响应，并提供对全球去中心化金融基础设施的无摩擦访问，为用户和项目方提供广泛的数据共享和收益机会。
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2317517e-6fcb-4b6d-b938-5a6fd3eade33/11b4c0f3-4035-4336-bf67-37596f6daff6/image.png)
-
+![UI](https://github.com/ContributeDAO/.github/blob/main/profile/UI.png)
 # 数据上传
 
 ### 数据上传者
@@ -54,7 +53,7 @@ Rebellion Data Funder 的核心假设包括：
 
 为满足不同场景的需求，开发者可以向社区提交自定义的脱敏模块供用户使用。被积极采用的模块的开发者将获得空投奖励，也可以采用订阅或分润的模式，从数据上传者的收益中获得回报。
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2317517e-6fcb-4b6d-b938-5a6fd3eade33/655a511d-eea0-45da-8fb0-ad7dc92b8060/image.png)
+![Uploader](https://github.com/ContributeDAO/.github/blob/main/profile/Uploader.png)
 
 # 数据验证
 
@@ -69,7 +68,7 @@ Rebellion Data Funder 的核心假设包括：
 1. **质押 ETH**：验证者必须质押一定量的 ETH 作为保证金，以确保其审查的公正性和有效性。
 2. **贡献数据**：验证者必须在该 mempool 中上传并贡献过一份数据，以确保其对数据集的熟悉程度和参与度。
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2317517e-6fcb-4b6d-b938-5a6fd3eade33/b7b969ee-b767-47ba-9912-2a4256aa5512/image.png)
+![Validator](https://github.com/ContributeDAO/.github/blob/main/profile/Validator.png)
 
 ### 验证奖励机制
 
@@ -99,7 +98,7 @@ $$
 - $T$ 是荷兰拍奖励的总时间。
 - $n$ 是奖励增长的指数。
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2317517e-6fcb-4b6d-b938-5a6fd3eade33/e288fd95-86ac-42b7-8fdc-5c5359b1329c/image.png)
+![PriceCurve](https://github.com/ContributeDAO/.github/blob/main/profile/PriceCurve.png)
 
 # 数据购买
 
@@ -117,7 +116,7 @@ $$
     - 如果购买方的拒绝率过高（例如，超过一定阈值），平台将启动不信任投票程序。该程序会对该购买方的行为进行评估，并可能禁用该购买方的发布权限，以防止滥用质疑机制。
     - 不信任投票的机制确保了购买方的质疑行为是真实有效的，而不是用来恶意干扰数据验证过程。
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2317517e-6fcb-4b6d-b938-5a6fd3eade33/4cba2451-ac8b-4df1-89a2-e61f6fb2aea1/image.png)
+![Argue](https://github.com/ContributeDAO/.github/blob/main/profile/Argue.png)
 
 # 代币经济学
 
@@ -125,7 +124,7 @@ RBL token 是平台的流通代币，购买方发布悬赏任务将付给平台�
 
 **Rebellion Token** 是为了激励网络参与者并推动平台的成长而发行的。代币系统不仅用来奖励数据共享的用户，还用来促进平台的治理和发展。通过发行 **Rebellion Token**，平台能够解决“冷启动问题”，并鼓励用户和开发者参与平台建设，从而扩大其网络效应。
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2317517e-6fcb-4b6d-b938-5a6fd3eade33/eddf6f3c-3a97-4306-b920-e63375629a45/image.png)
+![Tokenomics](https://github.com/ContributeDAO/.github/blob/main/profile/Tokenomics.png)
 
 # RoadMap
 
