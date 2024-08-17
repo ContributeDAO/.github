@@ -131,7 +131,7 @@ $$
 
 
 <p align="center">
-  <img src="https://github.com/ContributeDAO/.github/blob/main/profile/Argue.png" alt="Argue" width="900" />
+  <img src="https://github.com/ContributeDAO/.github/blob/main/profile/Argue.png" alt="Argue" width="700" />
 </p>
 
 # 代币经济学
