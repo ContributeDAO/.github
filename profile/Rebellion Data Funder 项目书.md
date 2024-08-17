@@ -18,8 +18,7 @@ Rebellion Data Funder 的核心假设包括：
 
 未来，Rebellion Data Funder 将继续推动数据隐私保护的技术进步，扩大用户基础，并为数据经济提供创新的激励机制和应用场景。以下是项目书分享了该项目实施背后的原因以及当前状态和路线图。
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2317517e-6fcb-4b6d-b938-5a6fd3eade33/458c44f9-9be6-416e-8bf2-4ab3e53920a2/image.png)
-![Framework](https://github.com/ContributeDAO/.github/edit/main/profile/Framework.png)
+![Framework](https://github.com/ContributeDAO/.github/blob/main/profile/Framework.png)
 
 
 # 参与方
