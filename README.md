@@ -18,7 +18,6 @@ Rebellion Data Funder 的核心假设包括：
 
 ![Framework](https://github.com/ContributeDAO/.github/blob/main/profile/Framework.png)
 
-
 # 参与方
 
 - 数据上传者：浏览需求并自愿选择参与数据共享；
@@ -44,7 +43,6 @@ Rebellion Data Funder 的核心假设包括：
   <img src="https://github.com/ContributeDAO/.github/blob/main/profile/UI.png" alt="UI" width="300" />
 </p>
 
-
 # 数据上传
 
 ### 数据上传者
@@ -57,11 +55,9 @@ Rebellion Data Funder 的核心假设包括：
 
 为满足不同场景的需求，开发者可以向社区提交自定义的脱敏模块供用户使用。被积极采用的模块的开发者将获得空投奖励，也可以采用订阅或分润的模式，从数据上传者的收益中获得回报。
 
-
 <p align="center">
   <img src="https://github.com/ContributeDAO/.github/blob/main/profile/Uploader.png" alt="Uploader" width="900" />
 </p>
-
 
 # 数据验证
 
@@ -85,29 +81,29 @@ Rebellion Data Funder 的核心假设包括：
 每条数据的验证奖励采用“荷兰拍”机制，即验证奖励会随时间逐渐增加。这种机制旨在鼓励验证者在验证任务发布初期即迅速完成验证，从而提高验证的效率。具体而言，每条数据的初始验证奖励较低，随着时间的推移，奖励会逐步增加，直到达到设定的上限。验证者的绩效将通过积分系统记录，最终奖励会根据验证者在该数据集中的积分与用户的奖励一同在截止日期发放到验证者的账户。
 
 $$
-R_v = \frac{I_v \times \sum_{i=1}^N I_{v_i}}{A_s}
+R_v = \frac{I_v \times A_s}{\sum_{i=1}^N P_i}
 $$
 
 - $R_v$ 是验证者的最终奖励。
-- $I_v$ 是验证者的积分。
+- $I_v$ 是验证者v完成验证收获的积分总和。
 - $A_s$ 是所有分润的金额。
-- $\sum_{i=1}^{N} I_{v_i}$是所有参与验证的验证者的积分总和。
+- $\sum_{i=1}^{N} P_{i}$是所有需要验证的数据积分总和。
 
 数据上传者可以设置价格的增长函数和初始价格，以提高自己数据被验证的优先级。同时，每个数据的验证会有 1min 的最晚时间（DDL），如果在最晚时间前没有完成验证，这份数据就会重新回到池子中，等待验证。奖励最终的实际大小取决于数据上传者定义的分润比例。
 
 $$
-I_v = P_d \times \alpha \times \left[ R_{\text{min}} + (R_{\text{max}} - R_{\text{min}}) \times \left(\frac{t}{T}\right)^n \right]
+I = P \times (A_t + a_i) \times \left[ R_{\text{min}} + (R_{\text{max}} - R_{\text{min}}) \times \left(\frac{t}{T}\right)^n \right]
 $$
 
-- $I_v$ 是验证者的积分。.
-- $P_d$ 是数据单价。
-- $\alpha$ 是上传者设置的分润比例。
+- $I$ 完成一个数据块的验证给验证者的奖励积分。
+- $P$ 是购买方给数据的单价。
+- $Α_t$ 是当前时间点的平台基准奖励率。
+- $a_i$ 是数据上传者设定的浮动奖励率(可能为负)。
 - $R_{\text{min}}$ 是荷兰拍奖励的最小值。
 - $R_{\text{max}}$是荷兰拍奖励的最大值。
 - $t$ 是当前时间点。
 - $T$ 是荷兰拍奖励的总时间。
 - $n$ 是奖励增长的指数。
-
 
 <p align="center">
   <img src="https://github.com/ContributeDAO/.github/blob/main/profile/PriceCurve.png" alt="PriceCurve" width="900" />
@@ -124,11 +120,10 @@ $$
 购买方有权对数据验证结果提出质疑。质疑的提出机制旨在确保验证过程的公正性和透明度。具体而言：
 
 1. **质疑处理**：
-    - 若购买方对验证结果提出质疑，平台将启动质疑处理流程。如果质疑成功，验证者将失去与该数据相关的奖励，而质疑的数据的基础金额将转入项目方钱包。
+   - 若购买方对验证结果提出质疑，平台将启动质疑处理流程。如果质疑成功，验证者将失去与该数据相关的奖励，而质疑的数据的基础金额将转入项目方钱包。
 2. **不信任投票**：
-    - 如果购买方的拒绝率过高（例如，超过一定阈值），平台将启动不信任投票程序。该程序会对该购买方的行为进行评估，并可能禁用该购买方的发布权限，以防止滥用质疑机制。
-    - 不信任投票的机制确保了购买方的质疑行为是真实有效的，而不是用来恶意干扰数据验证过程。
-
+   - 如果购买方的拒绝率过高（例如，超过一定阈值），平台将启动不信任投票程序。该程序会对该购买方的行为进行评估，并可能禁用该购买方的发布权限，以防止滥用质疑机制。
+   - 不信任投票的机制确保了购买方的质疑行为是真实有效的，而不是用来恶意干扰数据验证过程。
 
 <p align="center">
   <img src="https://github.com/ContributeDAO/.github/blob/main/profile/Argue.png" alt="Argue" width="700" />
