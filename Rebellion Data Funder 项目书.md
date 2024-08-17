@@ -40,7 +40,11 @@ Rebellion Data Funder 的核心假设包括：
 
 通过 **Rebellion App**，项目方可以发布数据需求悬赏，用户可以浏览这些需求并自愿选择参与数据共享。用户共享的数据将受到严格保护，同时确保隐私不被泄露。最终，**Rebellion App** 期望支持各种数据需求的发布和响应，并提供对全球去中心化金融基础设施的无摩擦访问，为用户和项目方提供广泛的数据共享和收益机会。
 
-![UI](https://github.com/ContributeDAO/.github/blob/main/profile/UI.png)
+<p align="center">
+  <img src="https://github.com/ContributeDAO/.github/blob/main/profile/UI.png" alt="UI" width="500" />
+</p>
+
+
 # 数据上传
 
 ### 数据上传者
