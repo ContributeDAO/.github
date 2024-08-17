@@ -89,10 +89,10 @@ $$
 - $A_s$ 是所有分润的金额。
 - $\sum_{i=1}^{N} P_{i}$是所有需要验证的数据积分总和。
 
-数据上传者可以设置价格的增长函数和初始价格，以提高自己数据被验证的优先级。同时，每个数据的验证会有 1min 的最晚时间（DDL），如果在最晚时间前没有完成验证，这份数据就会重新回到池子中，等待验证。奖励最终的实际大小取决于数据上传者定义的分润比例。
+数据上传者可以设置价格的增长函数和初始价格，以提高自己数据被验证的优先级。同时，每个数据的验证会有 1min 的最晚时间（DDL），如果在最晚时间前没有完成验证，这份数据就会重新回到池子中，等待验证。奖励最终的实际大小取决于平台基准奖励率和数据上传者设定的浮动奖励率。
 
 $$
-I = P \times (A_t + a_i) \times \left[ R_{\text{min}} + (R_{\text{max}} - R_{\text{min}}) \times \left(\frac{t}{T}\right)^n \right]
+I = P \times (A_t + a_i) \times \left[ R_{\text{min}} + (R_{\text{max}} - R_{\text{min}}) \times \frac{1}{1 + e^{-k(2\frac{t}{T} - 1)}} \right]
 $$
 
 - $I$ 完成一个数据块的验证给验证者的奖励积分。
@@ -101,9 +101,9 @@ $$
 - $a_i$ 是数据上传者设定的浮动奖励率(可能为负)。
 - $R_{\text{min}}$ 是荷兰拍奖励的最小值。
 - $R_{\text{max}}$是荷兰拍奖励的最大值。
-- $t$ 是当前时间点。
+- $t$ 是当前已经度过的时间。
 - $T$ 是荷兰拍奖励的总时间。
-- $n$ 是奖励增长的指数。
+- $n$ 是奖励增长的速度k。
 
 <p align="center">
   <img src="https://github.com/ContributeDAO/.github/blob/main/profile/PriceCurve.png" alt="PriceCurve" width="900" />
