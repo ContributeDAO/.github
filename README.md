@@ -1,12 +1,15 @@
+# Rebellion Data Funder 项目书
+
+> Unlock Your Data, Crowdfund Your Worth.
+> 
+
+# 引言
+
+许多大型公司，如美团，已经收集了大量用户的个人数据。然而，这些公司往往并不提供用户下载个人数据的接口。例如，美团的个人用户无法直接下载他们的外卖历史记录，只能通过第三方工具来获取，而美团商家版却能够直接导出。这种做法不仅侵犯了用户的数据主权，也让数据获取变得极其困难。这种数据封闭的做法限制了用户对自己数据的控制权，也让数据的利用变得更加不透明。用户的个人数据在不知情的情况下，被滥用以牟取商业利益。在大数据杀熟，过度精准推送。根据南都反垄断研究课题组发布的《消费者对在线平台行为与市场竞争的态度和认知》调查结果显示近八成受访者在意隐私，对平台数据使用行为感到担忧，担忧“个人数据被滥用”和“大数据杀熟”占比高达 50% 和20% 。
+
 # Rebellion Data Funder 简介
 
-Rebellion Data Funder 致力于构建一个全球性的数据众筹平台，赋予用户对个人数据的完全控制权，并通过去中心化的经济激励机制获得实际回报。用户可以透明、安全地共享数据，并通过 RBL token 实现直接经济收益，从而推动数据经济的公平发展和隐私保护。
-
-Rebellion Data Funder 由一个隐私保护的数据共享平台（Data Network）和一个去中心化的经济激励机制（RLB token）组成。每个用户通过分享数据，验证后即可获得 RLB  token 的经济收益。该平台采用先进的加密技术和区块链基础设施支持，在保护隐私的同时将人类与人工智能区分开来，确保数据的有效性和隐私性。
-
-**“数据隐私保护”** 是 Rebellion Data Funder 的核心理念，旨在确保用户数据的隐私和控制权。平台通过加密技术验证数据的真实性，并通过去中心化的机制确保数据使用的透明性，使用户能够在不泄露现实世界身份的情况下安全地分享数据。
-
-目前，数据隐私保护在全球范围内仍是一个亟待解决的问题，尤其是在隐私法规日益严格的背景下。随着数据共享和经济激励机制的不断发展，Rebellion Data Funder 可能成为全球数据隐私保护和经济回报的标准。
+Rebellion Data Funder 致力于构建一个全球性的数据众筹平台，赋予用户对个人数据的完全控制权。用户可以透明、安全地导出并共享数据，并通过 RBL token 实现直接经济收益，从而推动数据经济的公平发展和隐私保护。**“Unlock Your Data, Crowdfund Your Worth”** 是 Rebellion Data Funder 的核心理念，旨在确保用户数据的隐私和控制权。平台通过加密生物标识验证用户的真实性，允许用户安全地分享数据赚取收益的同时，不泄露现实世界身份。
 
 Rebellion Data Funder 的核心假设包括：
 
@@ -14,9 +17,17 @@ Rebellion Data Funder 的核心假设包括：
 - **可扩展的经济激励**：RBL token 是 Rebellion Data Funder 的经济激励核心，用于对所有参与者进行激励，以确保平台的长期发展和激励用户参与数据共享，并保障数据的有效性和透明度。
 - **技术创新**：Rebellion Data Funder 基于先进的加密技术构建了一个隐私保护的数据网络。用户通过平台控制个人数据的共享，并确保数据在传输和存储过程中得到最高级别的保护。加密技术的应用确保了数据的真实性和隐私，防止了数据的滥用和泄露。
 
-未来，Rebellion Data Funder 将继续推动数据隐私保护的技术进步，扩大用户基础，并为数据经济提供创新的激励机制和应用场景。以下是项目书分享了该项目实施背后的原因以及当前状态和路线图。
+### Rebellion Data Funder 如何运作？
 
-![Framework](https://github.com/ContributeDAO/.github/blob/main/profile/Framework.png)
+**Rebellion Data Funder** 旨在实现数据的安全交易与公平奖励分配。用户可以自愿成为数据上传者、验证者或购买方，通过生物标识加密识别真实用户，并获得平台 **Rebellion ID** 的唯一标识。数据上传者可以浏览购买方发布的悬赏任务，利用提供的导出工具将信息共享给购买方使用。
+
+数据上传者的信息会经过数据脱敏模块后，进入待验证池（mempool），等待验证者的审核。验证者需要质押 ETH 以确保其公正性，独立验证数据是否符合购买方的要求。每条待验证的数据采用“荷兰拍”寻求验证者，奖励积分变化取决于上传者定义的价格曲线。经过验证的数据将被记录在区块链上，确保结果的透明性和不可篡改性。购买方保留对验证后的数据质疑的权利，以监督验证者的准确性。
+
+开发者可以通过提交数据导出工具和特定场景的脱敏模块参与到 Rebellion Data Funder 生态。用户可以通过订阅会员解锁更高级的导出工具，脱敏模块的开发者也可以通过订阅和分润赚取代币，并享受潜在的空投奖励。
+
+<p align="center">
+<img src="[https://github.com/ContributeDAO/.github/blob/main/profile/Framework.png](https://github.com/ContributeDAO/.github/blob/main/profile/RebellionID.png)" alt="Framework" width="900" />
+</p>
 
 # 参与方
 
@@ -27,10 +38,10 @@ Rebellion Data Funder 的核心假设包括：
 
 # Rebellion ID
 
-**Rebellion ID 是用户的人格证明，**确保每个用户的数据在共享过程中的安全性，并且使得盗用或滥用数据变得极其困难**。**用户需要在注册时通过绑定验证他们的指纹信息来生成 **Rebellion ID**，确保身份的真实性和唯一性。这一机制允许个人向验证者证明其为真实用户，防止机器人和虚假账户污染数据共享环境。
+- *Rebellion ID 是用户的人格证明，**确保每个用户的数据在共享过程中的安全性，并且使得盗用或滥用数据变得极其困难**。**用户需要在注册时通过绑定验证他们的指纹信息来生成 **Rebellion ID**，确保身份的真实性和唯一性。这一机制允许个人向验证者证明其为真实用户，防止机器人和虚假账户污染数据共享环境。
 
 <p align="center">
-  <img src="https://github.com/ContributeDAO/.github/blob/main/profile/RebellionID.png" alt="RebellionID" width="900" />
+<img src="https://github.com/ContributeDAO/.github/blob/main/profile/RebellionID.png" alt="RebellionID" width="900" />
 </p>
 
 # Rebellion App
@@ -40,14 +51,20 @@ Rebellion Data Funder 的核心假设包括：
 通过 **Rebellion App**，项目方可以发布数据需求悬赏，用户可以浏览这些需求并自愿选择参与数据共享。用户共享的数据将受到严格保护，同时确保隐私不被泄露。最终，**Rebellion App** 期望支持各种数据需求的发布和响应，并提供对全球去中心化金融基础设施的无摩擦访问，为用户和项目方提供广泛的数据共享和收益机会。
 
 <p align="center">
-  <img src="https://github.com/ContributeDAO/.github/blob/main/profile/UI.png" alt="UI" width="300" />
+<img src="https://github.com/ContributeDAO/.github/blob/main/profile/UI.png" alt="UI" width="300" />
 </p>
 
 # 数据上传
 
 ### 数据上传者
 
-用户可以通过授权读取或自行上传个人数据。当用户上传数据后，他们将获得该数据集（悬赏任务）的验证者身份，数据被传入脱敏模块（详见脱敏模块）。上传者可以设置数据与验证者的分润比例和衰减函数（详见数据验证者部分），以吸引验证者优先验证其数据。当上传的数据达到一定规模时，将触发验证流程。
+用户可以通过授权导出或自行上传个人数据。当用户上传数据后，他们将获得该数据集（悬赏任务）的验证者身份，数据被传入脱敏模块（详见脱敏模块）。上传者可以设置数据与验证者的分润比例和衰减函数（详见数据验证者部分），以吸引验证者优先验证其数据。当上传的数据达到一定规模时，将触发验证流程。
+
+### 数据导出模块
+
+Rebellion App 将提供数据导出工具，允许用户导出各类难以收集的数据，例如购物订单数据、信用卡交易记录、浏览器历史、视频应用历史以及个人聊天记录等。所有第三方工具需经过平台审核后才能上架。工具开发者需要支付一定的 RBL token 作为上架费用，同时，工具的使用将会纳入平台的审核和评价系统，以确保工具的质量和安全性。
+
+平台运行初期将集成各类第三方应用账单导出功能，免费开放给用户使用，如淘宝、拼多多、美团、银行卡/微信/支付宝等主流平台。平台允许用户单独使用数据导出工具而不选择上传，解决日常数据导出需求。用户可以选择购买高级功能或订阅会员，以享受更为全面的数据导出服务，费用提供给平台盈利和开发者奖励。
 
 ### 脱敏模块
 
@@ -56,7 +73,7 @@ Rebellion Data Funder 的核心假设包括：
 为满足不同场景的需求，开发者可以向社区提交自定义的脱敏模块供用户使用。被积极采用的模块的开发者将获得空投奖励，也可以采用订阅或分润的模式，从数据上传者的收益中获得回报。
 
 <p align="center">
-  <img src="https://github.com/ContributeDAO/.github/blob/main/profile/Uploader.png" alt="Uploader" width="900" />
+<img src="https://github.com/ContributeDAO/.github/blob/main/profile/Uploader.png" alt="Uploader" width="900" />
 </p>
 
 # 数据验证
@@ -73,7 +90,7 @@ Rebellion Data Funder 的核心假设包括：
 2. **贡献数据**：验证者必须在该 mempool 中上传并贡献过一份数据，以确保其对数据集的熟悉程度和参与度。
 
 <p align="center">
-  <img src="https://github.com/ContributeDAO/.github/blob/main/profile/Validator.png" alt="Validator" width="900" />
+<img src="https://github.com/ContributeDAO/.github/blob/main/profile/Validator.png" alt="Validator" width="900" />
 </p>
 
 ### 验证奖励机制
@@ -106,7 +123,7 @@ $$
 - $n$ 是奖励增长的速度k。
 
 <p align="center">
-  <img src="https://github.com/ContributeDAO/.github/blob/main/profile/PriceCurve.png" alt="PriceCurve" width="900" />
+<img src="https://github.com/ContributeDAO/.github/blob/main/profile/PriceCurve.png" alt="PriceCurve" width="900" />
 </p>
 
 # 数据购买
@@ -120,13 +137,13 @@ $$
 购买方有权对数据验证结果提出质疑。质疑的提出机制旨在确保验证过程的公正性和透明度。具体而言：
 
 1. **质疑处理**：
-   - 若购买方对验证结果提出质疑，平台将启动质疑处理流程。如果质疑成功，验证者将失去与该数据相关的奖励，而质疑的数据的基础金额将转入项目方钱包。
+    - 若购买方对验证结果提出质疑，平台将启动质疑处理流程。如果质疑成功，验证者将失去与该数据相关的奖励，而质疑的数据的基础金额将转入项目方钱包。
 2. **不信任投票**：
-   - 如果购买方的拒绝率过高（例如，超过一定阈值），平台将启动不信任投票程序。该程序会对该购买方的行为进行评估，并可能禁用该购买方的发布权限，以防止滥用质疑机制。
-   - 不信任投票的机制确保了购买方的质疑行为是真实有效的，而不是用来恶意干扰数据验证过程。
+    - 如果购买方的拒绝率过高（例如，超过一定阈值），平台将启动不信任投票程序。该程序会对该购买方的行为进行评估，并可能禁用该购买方的发布权限，以防止滥用质疑机制。
+    - 不信任投票的机制确保了购买方的质疑行为是真实有效的，而不是用来恶意干扰数据验证过程。
 
 <p align="center">
-  <img src="https://github.com/ContributeDAO/.github/blob/main/profile/Argue.png" alt="Argue" width="700" />
+<img src="https://github.com/ContributeDAO/.github/blob/main/profile/Argue.png" alt="Argue" width="700" />
 </p>
 
 # 代币经济学
@@ -135,26 +152,27 @@ $$
 
 **RBL Token** 是为了激励网络参与者并推动平台的成长而发行的。代币系统不仅用来奖励数据共享的用户，还用来促进平台的治理和发展。通过发行 RBL Token，平台能够解决“冷启动问题”，并鼓励用户和开发者参与平台建设，从而扩大其网络效应。
 
-![Tokenomics](https://github.com/ContributeDAO/.github/blob/main/profile/Tokenomics.png)
+!https://github.com/ContributeDAO/.github/blob/main/profile/Tokenomics.png
 
 # RoadMap
 
 **产品研发阶段**（2024年第三季度）
 
-- 完成平台的基础功能开发，包括用户注册、数据上传和验证机制。
-- 完成初步的系统集成和内部测试，确保平台功能的稳定性和可靠性。
+- **用户注册和数据上传**：开发完成用户注册、数据上传及验证功能，确保用户可以顺利上传数据。
+- **系统集成和测试**：进行系统集成，完成内部功能测试，包括数据脱敏模块、验证机制等，确保系统稳定性。
 
 **测试阶段**（2024年第四季度）
 
-- 进行内部测试，修复系统漏洞和优化平台性能。
-- 开展用户测试，收集用户反馈，优化用户体验和平台功能。
+- **内部测试**：对系统进行全面测试，修复发现的漏洞和优化系统性能。
+- **用户反馈**：启动小范围的用户测试，收集用户使用反馈，并根据反馈优化用户体验和平台功能。
 
 **上线阶段**（2025年第一季度）
 
-- 正式上线平台，启动数据共享和验证的实际运营。
-- 开展市场推广活动，吸引用户和项目方参与平台。
+- **平台上线**：正式推出平台，启动数据共享和验证的实际运营，支持用户数据上传和购买方悬赏任务。
+- **市场推广**：开展市场推广活动，增加平台曝光率，吸引更多用户和项目方参与。
 
 **扩展阶段**（2025年第二季度及以后）
 
-- 扩大用户基础，增加数据需求，优化平台功能。
-- 推动全球数据共享网络的发展，探索新的应用场景和合作机会
+- **用户基础扩展**：增加用户注册和数据上传量，扩大平台的用户基础。
+- **功能优化**：根据市场反馈优化平台功能，引入更多数据需求和应用场景。
+- **全球网络发展**：推动全球数据共享网络的扩展，探索新的合作机会和应用领域。
