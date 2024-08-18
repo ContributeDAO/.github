@@ -26,7 +26,7 @@ Rebellion Data Funder 的核心假设包括：
 开发者可以通过提交数据导出工具和特定场景的脱敏模块参与到 Rebellion Data Funder 生态。用户可以通过订阅会员解锁更高级的导出工具，脱敏模块的开发者也可以通过订阅和分润赚取代币，并享受潜在的空投奖励。
 
 <p align="center">
-<img src="[https://github.com/ContributeDAO/.github/blob/main/profile/Framework.png](https://github.com/ContributeDAO/.github/blob/main/profile/RebellionID.png)" alt="Framework" width="900" />
+<img src="https://github.com/ContributeDAO/.github/blob/main/profile/Framework.png" alt="Framework" width="900" />
 </p>
 
 # 参与方
