@@ -152,7 +152,9 @@ $$
 
 **RBL Token** 是为了激励网络参与者并推动平台的成长而发行的。代币系统不仅用来奖励数据共享的用户，还用来促进平台的治理和发展。通过发行 RBL Token，平台能够解决“冷启动问题”，并鼓励用户和开发者参与平台建设，从而扩大其网络效应。
 
-!https://github.com/ContributeDAO/.github/blob/main/profile/Tokenomics.png
+<p align="center">
+<img src="https://github.com/ContributeDAO/.github/blob/main/profile/Tokenomics.png" alt="Tokenomics" width="900" />
+</p>
 
 # RoadMap
 
